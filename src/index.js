@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
 import './index.css';
 
 
@@ -11,6 +12,8 @@ ReactDOM.render(saludo,divRoot);
 
 //2     
 ReactDOM.render( <PrimeraApp saludo="saludo desde props"  />  , divRoot )
+
+ReactDOM.render( <CounterApp value={55}/> , divRoot)
 
 
 
